@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG Traders | Tech, Gadgets & More</title>
+<meta name="description" content="AG Traders - Your online store for tech, gadgets, mobile accessories, audio, charging, gaming and more.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#151922;line-height:1.5}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{background:#0b1220;color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 14px #0002}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:24px;font-weight:800;letter-spacing:1px}.logo span{color:#39d98a}
+nav{display:flex;gap:22px;font-weight:600;font-size:14px}
+nav a:hover{color:#39d98a}
+.hero{background:linear-gradient(135deg,#0b1220,#15233c);color:#fff;padding:76px 0}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:#39d98a22;color:#72efb0;border:1px solid #39d98a55;padding:7px 12px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin-bottom:18px}
+.hero p{font-size:18px;color:#d4dbea;max-width:620px}
+.btn{display:inline-block;padding:13px 20px;border-radius:9px;font-weight:700;margin-top:25px;margin-right:8px}
+.btn-primary{background:#39d98a;color:#07120d}.btn-dark{border:1px solid #ffffff44;color:#fff}
+.hero-card{background:#ffffff10;border:1px solid #ffffff20;border-radius:22px;padding:28px;backdrop-filter:blur(8px)}
+.hero-card h3{margin-bottom:12px}.hero-card li{list-style:none;padding:8px 0;color:#dce4f2}
+section{padding:65px 0}.section-head{text-align:center;margin-bottom:32px}.section-head h2{font-size:34px;margin-bottom:8px}.muted{color:#687386}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cat{background:#fff;padding:24px;border-radius:16px;border:1px solid #e5e9f0;text-align:center;font-weight:700;box-shadow:0 4px 18px #1b294012}
+.cat .icon{font-size:30px;margin-bottom:10px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.product{background:#fff;border:1px solid #e5e9f0;border-radius:16px;overflow:hidden;box-shadow:0 5px 20px #1b294012}
+.product-img{height:190px;background:#e9eef6;display:flex;align-items:center;justify-content:center;font-size:54px}
+.product-body{padding:18px}.product h3{font-size:18px;margin-bottom:6px}.price{font-size:20px;font-weight:800;margin-top:12px}.order{display:block;text-align:center;background:#0b1220;color:#fff;padding:11px;border-radius:8px;margin-top:14px;font-weight:700}
+.about{background:#0b1220;color:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about p{color:#d4dbea}.features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.feature{border:1px solid #ffffff18;padding:14px;border-radius:10px;background:#ffffff08}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:#fff;border:1px solid #e5e9f0;border-radius:16px;padding:25px}
+footer{background:#070c15;color:#aeb8c9;padding:28px 0;text-align:center}
+footer strong{color:#fff}
+@media(max-width:800px){nav{display:none}.hero-grid,.about-grid,.contact{grid-template-columns:1fr}.categories{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.categories,.products{grid-template-columns:1fr}.hero{padding:55px 0}section{padding:48px 0}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#">AG <span>TRADERS</span></a>
+<nav><a href="#home">Home</a><a href="#categories">Categories</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container hero-grid">
+<div>
+<span class="badge">WELCOME TO AG TRADERS</span>
+<h1>Tech, Gadgets<br>& More.</h1>
+<p>Your online store for useful technology, mobile accessories, audio products, charging solutions, gaming accessories and smart gadgets.</p>
+<a class="btn btn-primary" href="#products">Shop Products</a>
+<a class="btn btn-dark" href="https://wa.me/923064439260">Order on WhatsApp</a>
+</div>
+<div class="hero-card">
+<h3>Why Shop With AG Traders?</h3>
+<ul>
+<li>✓ Useful Tech & Gadget Products</li>
+<li>✓ Convenient Online Ordering</li>
+<li>✓ Cash on Delivery Available</li>
+<li>✓ Free Delivery Available</li>
+<li>✓ WhatsApp Order Support</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="categories">
+<div class="container">
+<div class="section-head"><h2>Shop by Category</h2><p class="muted">Explore our growing range of products.</p></div>
+<div class="categories">
+<div class="cat"><div class="icon">📱</div>Mobile Accessories</div>
+<div class="cat"><div class="icon">🎧</div>Audio & Speakers</div>
+<div class="cat"><div class="icon">⚡</div>Power & Charging</div>
+<div class="cat"><div class="icon">🎮</div>Gaming Accessories</div>
+<div class="cat"><div class="icon">💻</div>Computer Accessories</div>
+<div class="cat"><div class="icon">📷</div>Content Creation</div>
+<div class="cat"><div class="icon">⌚</div>Smart Gadgets</div>
+<div class="cat"><div class="icon">🏠</div>Home Gadgets</div>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="container">
+<div class="section-head"><h2>Featured Products</h2><p class="muted">A sample storefront — replace these with your live products.</p></div>
+<div class="products">
+<article class="product"><div class="product-img">🎧</div><div class="product-body"><h3>Ronin R-29 Wired Earphones</h3><p class="muted">Deep bass, built-in microphone & 120cm cable.</p><div class="price">Rs. 1,299</div><a class="order" href="https://wa.me/923064439260?text=I%20want%20to%20order%20Ronin%20R-29%20Wired%20Earphones">Order Now</a></div></article>
+<article class="product"><div class="product-img">📺</div><div class="product-body"><h3>MXQ Pro 4K Android TV Box</h3><p class="muted">Android, 4K video output, Wi-Fi & LAN.</p><div class="price">Rs. 8,499</div><a class="order" href="https://wa.me/923064439260?text=I%20want%20to%20order%20MXQ%20Pro%204K%20Android%20TV%20Box">Order Now</a></div></article>
+<article class="product"><div class="product-img">📱</div><div class="product-body"><h3>Mobile Phone Holder</h3><p class="muted">Lightweight, compact design for convenient use.</p><div class="price">Rs. 1,099</div><a class="order" href="https://wa.me/923064439260?text=I%20want%20to%20order%20Mobile%20Phone%20Holder">Order Now</a></div></article>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container about-grid">
+<div><span class="badge">ABOUT AG TRADERS</span><h2>Simple shopping. Useful tech.</h2><p>AG Traders is an online store focused on practical technology and everyday gadgets. We aim to make useful products easy to discover and order online.</p></div>
+<div class="features"><div class="feature">📦 Convenient Ordering</div><div class="feature">💬 WhatsApp Support</div><div class="feature">🚚 Free Delivery Available</div><div class="feature">💵 Cash on Delivery</div></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="section-head"><h2>Contact AG Traders</h2><p class="muted">Ready to order? Send us a WhatsApp message.</p></div>
+<div class="contact">
+<div class="contact-card"><h3>📲 WhatsApp Orders</h3><p class="muted">0306-443-9260</p><a class="btn btn-primary" href="https://wa.me/923064439260">Message on WhatsApp</a></div>
+<div class="contact-card"><h3>🛒 Store</h3><p class="muted">AG Traders — Your Online Store for Tech, Gadgets & More.</p></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="container"><strong>AG TRADERS</strong><br>Your Online Store for Tech, Gadgets & More<br><small>© 2026 AG Traders. All rights reserved.</small></div></footer>
+</body>
+</html>
